@@ -1,0 +1,19 @@
+main: com.gmail.lolzdurps.plugins.minecraftplugin.Start
+name: PlayerFreezer
+version: 0.1
+author: Vizzra
+description: Freezes a player.
+commands:
+    freeze:
+        description: Freezes a player.
+        usage: /freeze <player>
+    unfreeze:
+        description: Unfreezes a player.
+        usage: /unfreeze <player>
+    cfreeze:
+        description: Freezes a player without any effects placed on them.
+        usage: /cfreeze <player> 
+permissions:
+  freeze.allow:
+    description: Allows you to freeze and unfreeze players.
+    default: op
