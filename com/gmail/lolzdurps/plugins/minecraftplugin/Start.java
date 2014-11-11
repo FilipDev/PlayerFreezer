@@ -44,7 +44,7 @@ public class Start
                     return true;
                 }
                 Player t = p.getServer().getPlayer(args[0]);
-                String onlinecheck = t.getName();
+                String onlinecheck = t + "";
                 if (onlinecheck.equals("null")) {
                     p.sendMessage(ChatColor.RED + "Player " + args[0] + " not found");
                     return true;
